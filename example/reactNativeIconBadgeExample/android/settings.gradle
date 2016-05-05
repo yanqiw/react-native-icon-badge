@@ -1,0 +1,3 @@
+rootProject.name = 'reactNativeIconBadgeExample'
+
+include ':app'

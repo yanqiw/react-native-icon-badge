@@ -15,6 +15,14 @@
     "icon-badge",
     "react-native-component"
   ],
+  "peerDependencies": {
+    "react-native": "*"
+  },
+  "devDependencies": {
+    "babel-eslint": "^5.0.0",
+    "eslint": "<2.3.0",
+    "eslint-plugin-react": "^4.2.3"
+  },
   "author": "Frank Wang",
   "license": "ISC",
   "bugs": {
