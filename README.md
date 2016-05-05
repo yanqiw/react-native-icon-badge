@@ -45,11 +45,14 @@ Use the component:
 
 ## API
 
-API name  | Usage
---|--
-MainElement  |  The background element.
-BadgeElement  |  The badge element, nomally it is a Text
-IconBadgeStyle  |  Customrized badge style
+API table
+
+API name       | Usage
+---------------|----------------------------------------
+MainElement    | The background element.
+BadgeElement   | The badge element, nomally it is a Text
+IconBadgeStyle | Customrized badge style
+
 
 ## Defaute badge style
 ```css

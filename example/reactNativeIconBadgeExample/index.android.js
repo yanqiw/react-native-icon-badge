@@ -18,7 +18,7 @@ class reactNativeIconBadgeExample extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native Incon Baged example!
+          Welcome to React Native Icon Baged example!
         </Text>
         <View style={{flexDirection: 'row',alignItems: 'center',justifyContent: 'center',}}>
           <IconBadge
