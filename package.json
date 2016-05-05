@@ -1,0 +1,24 @@
+{
+  "name": "react-native-icon-badge",
+  "version": "0.1.0",
+  "description": "add icon badge to othe element for React Native",
+  "main": "IconBadge.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yanqiw/react-native-icon-badge.git"
+  },
+  "keywords": [
+    "react-native",
+    "icon-badge",
+    "react-native-component"
+  ],
+  "author": "Frank Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yanqiw/react-native-icon-badge/issues"
+  },
+  "homepage": "https://github.com/yanqiw/react-native-icon-badge#readme"
+}
