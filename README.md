@@ -50,8 +50,8 @@ API table
 API name       | Usage
 ---------------|----------------------------------------
 MainElement    | The background element.
-BadgeElement   | The badge element, nomally it is a Text
-IconBadgeStyle | Customrized badge style
+BadgeElement   | The badge element, nomally it is a Text.
+IconBadgeStyle | Customrized badge style.(Optional)
 
 
 ## Defaute badge style
