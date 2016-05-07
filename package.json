@@ -1,6 +1,6 @@
 {
   "name": "react-native-icon-badge",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "add icon badge to other element for React Native",
   "main": "IconBadge.js",
   "scripts": {
