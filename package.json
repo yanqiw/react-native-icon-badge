@@ -23,7 +23,7 @@
     "eslint": "<2.3.0",
     "eslint-plugin-react": "^4.2.3"
   },
-  "author": "Frank Wang",
+  "author": "Frank Wang, Tomyli, Cynric",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/yanqiw/react-native-icon-badge/issues"
