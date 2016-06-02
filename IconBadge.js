@@ -1,8 +1,8 @@
-var React = require('react-native');
+var React = require('react');
 var sytle = require('./style');
-var {
+import {
   View,
-} = React;
+} from 'react-native';
 
 class IconBadge extends React.Component {
   constructor(props){
