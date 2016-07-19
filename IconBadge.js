@@ -11,7 +11,7 @@ class IconBadge extends React.Component {
 
   render(){
     return (
-      <View>
+      <View style={[style.MainView, (this.props.MainViewStyle ? this.props.MainViewStyle : {})]}>
         {
           // main element
           this.props.MainElement
