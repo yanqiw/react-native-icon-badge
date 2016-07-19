@@ -13,7 +13,7 @@ class IconBadge extends React.Component {
     return (
       <View>
         {
-          //mian element
+          // main element
           this.props.MainElement
         }
         <View style={[style.IconBadge, (this.props.IconBadgeStyle ? this.props.IconBadgeStyle : {})]}>
