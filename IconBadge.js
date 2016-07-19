@@ -1,5 +1,5 @@
 var React = require('react');
-var sytle = require('./style');
+var style = require('./style');
 import {
   View,
 } from 'react-native';
@@ -16,7 +16,7 @@ class IconBadge extends React.Component {
           //mian element
           this.props.MainElement
         }
-        <View style={[sytle.IconBadge, (this.props.IconBadgeStyle ? this.props.IconBadgeStyle : {})]}>
+        <View style={[style.IconBadge, (this.props.IconBadgeStyle ? this.props.IconBadgeStyle : {})]}>
           {
             // badge element
             this.props.BadgeElement
