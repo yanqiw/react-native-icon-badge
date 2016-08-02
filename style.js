@@ -14,6 +14,9 @@ var styles = StyleSheet.create({
     justifyContent: 'center',
     backgroundColor: '#FF0000'
   },
+  MainView: {
+
+  }
 });
 
 module.exports = styles;
