@@ -33,14 +33,14 @@ Use the component:
       }}/>
     }
     BadgeElement={
-      <Text style={{color:'#FFFFFF'}}>1</Text>
+      <Text style={{color:'#FFFFFF'}}>{this.state.BadgeCount}</Text>
     }
-
     IconBadgeStyle={
       {width:30,
       height:30,
       backgroundColor: '#FF00EE'}
     }
+    Hidden={this.state.BadgeCount==0}
     />
 </View>
 ```
@@ -54,6 +54,7 @@ API name       | Usage
 MainElement    | The background element.
 BadgeElement   | The badge element, nomally it is a Text.
 IconBadgeStyle | Customrized badge style.(Optional)
+Hidden         | Hides badge.(Optional)
 
 
 ## Defaute badge style
