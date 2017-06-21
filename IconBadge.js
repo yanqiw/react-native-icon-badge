@@ -16,7 +16,7 @@ class IconBadge extends React.Component {
           // main element
           this.props.MainElement
         }
-        <View style={[style.IconBadge, (this.props.IconBadgeStyle ? this.props.IconBadgeStyle : {})]}>
+        <View style={[style.IconBadge, (this.props.IconBadgeStyle ? this.props.IconBadgeStyle : {}), {display: this.props.Hidden ? 'none' : 'flex'}]}>
           {
             // badge element
             this.props.BadgeElement
