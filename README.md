@@ -57,13 +57,13 @@ IconBadgeStyle | Customrized badge style.(Optional)
 Hidden         | Hides badge.(Optional)
 
 
-## Defaute badge style
+## Default badge style
 ```css
 IconBadge: {
   position:'absolute',
   top:1,
   right:1,
-  width:20,
+  minWidth:20,
   height:20,
   borderRadius:15,
   alignItems: 'center',
