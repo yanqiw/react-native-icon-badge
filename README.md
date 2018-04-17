@@ -52,8 +52,8 @@ API table
 API name       | Usage
 ---------------|----------------------------------------
 MainElement    | The background element.
-BadgeElement   | The badge element, nomally it is a Text.
-IconBadgeStyle | Customrized badge style.(Optional)
+BadgeElement   | The badge element, normally it is a Text.
+IconBadgeStyle | Customized badge style.(Optional)
 Hidden         | Hides badge.(Optional)
 
 
