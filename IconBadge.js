@@ -1,32 +1,52 @@
-var React = require('react');
-var style = require('./style');
-import {
-  View,
-} from 'react-native';
+import React, {PureComponent} from 'react';
+import PropTypes from 'prop-types';
+import {StyleSheet, View} from 'react-native';
 
-class IconBadge extends React.Component {
-  constructor(props){
-    super(props);
-  }
+const styles = StyleSheet.create({
+  IconBadge: {
+    position: 'absolute',
+    top: 1,
+    right: 1,
+    minWidth: 20,
+    height: 20,
+    borderRadius: 15,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: '#FF0000',
+  },
+});
 
-  render(){
+export default class IconBadge extends PureComponent {
+  static propTypes = {
+    MainElement: PropTypes.element.isRequired,
+    BadgeElement: PropTypes.element.isRequired,
+    MainViewStyle: PropTypes.object,
+    IconBadgeStyle: PropTypes.object,
+    Hidden: PropTypes.bool,
+  };
+  static defaultProps = {
+    MainViewStyle: {},
+    IconBadgeStyle: {},
+    Hidden: true,
+  };
+  state = {};
+  render() {
+    const {
+      MainViewStyle,
+      MainElement,
+      Hidden,
+      IconBadgeStyle,
+      BadgeElement,
+    } = this.props;
     return (
-      <View style={[style.MainView, (this.props.MainViewStyle ? this.props.MainViewStyle : {})]}>
-        {
-          // main element
-          this.props.MainElement
-        }
-        { !this.props.Hidden &&
-          <View style={[style.IconBadge, (this.props.IconBadgeStyle ? this.props.IconBadgeStyle : {})]}>
-            {
-              // badge element
-              this.props.BadgeElement
-            }
+      <View style={[MainViewStyle || {}]}>
+        {MainElement}
+        {!Hidden && (
+          <View style={[styles.IconBadge, IconBadgeStyle || {}]}>
+            {BadgeElement}
           </View>
-        }
+        )}
       </View>
-    )
+    );
   }
 }
-
-module.exports = IconBadge;
