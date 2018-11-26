@@ -29,7 +29,7 @@ export interface IconBadgeProps {
 
   /**
    * Hides badge.
-   * @default true
+   * @default false
    */
   Hidden?: boolean;
 }
