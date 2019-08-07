@@ -7,7 +7,7 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 1,
     right: 1,
-    minWidth: 20,
+    width: 20,
     height: 20,
     borderRadius: 15,
     alignItems: 'center',
